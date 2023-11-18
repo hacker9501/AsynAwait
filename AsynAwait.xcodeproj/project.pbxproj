@@ -13,6 +13,9 @@
 		73E27D422B06C3AA000311A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E27D402B06C3AA000311A6 /* Main.storyboard */; };
 		73E27D442B06C3AC000311A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73E27D432B06C3AC000311A6 /* Assets.xcassets */; };
 		73E27D472B06C3AC000311A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E27D452B06C3AC000311A6 /* LaunchScreen.storyboard */; };
+		73E27D4F2B072593000311A6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E27D4E2B072593000311A6 /* ViewModel.swift */; };
+		73E27D512B072740000311A6 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E27D502B072740000311A6 /* Provider.swift */; };
+		73E27D532B074DF0000311A6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E27D522B074DF0000311A6 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		73E27D432B06C3AC000311A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73E27D462B06C3AC000311A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73E27D482B06C3AC000311A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73E27D4E2B072593000311A6 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		73E27D502B072740000311A6 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		73E27D522B074DF0000311A6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				73E27D3A2B06C3AA000311A6 /* AppDelegate.swift */,
 				73E27D3C2B06C3AA000311A6 /* SceneDelegate.swift */,
 				73E27D3E2B06C3AA000311A6 /* ViewController.swift */,
+				73E27D4E2B072593000311A6 /* ViewModel.swift */,
+				73E27D502B072740000311A6 /* Provider.swift */,
+				73E27D522B074DF0000311A6 /* Model.swift */,
 				73E27D402B06C3AA000311A6 /* Main.storyboard */,
 				73E27D432B06C3AC000311A6 /* Assets.xcassets */,
 				73E27D452B06C3AC000311A6 /* LaunchScreen.storyboard */,
@@ -140,6 +149,9 @@
 			files = (
 				73E27D3F2B06C3AA000311A6 /* ViewController.swift in Sources */,
 				73E27D3B2B06C3AA000311A6 /* AppDelegate.swift in Sources */,
+				73E27D4F2B072593000311A6 /* ViewModel.swift in Sources */,
+				73E27D532B074DF0000311A6 /* Model.swift in Sources */,
+				73E27D512B072740000311A6 /* Provider.swift in Sources */,
 				73E27D3D2B06C3AA000311A6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
